@@ -1,0 +1,36 @@
+#box1 {
+	background: red;
+	width: 200px; height: 200px;
+}
+
+#box2 {
+	background: green;
+	width: 150px; height: 150px;
+}
+
+#box3 {
+	background: blue;
+	width: 100px; height: 100px;
+}
+
+#box4 {
+	background: red;
+	width: 200px; height: 200px;
+}
+
+#box5 {
+	background: green;
+	width: 150px; height: 150px;
+}
+
+#box6 {
+	background: blue;
+	width: 100px; height: 100px;
+}
+p{
+	font-size: 24px;
+	color: #1a8484
+}
+h2{
+	color: rgba(22, 26, 137, 0.47);
+}

@@ -1,0 +1,31 @@
+h1 {
+	margin: 0;
+}
+
+.content {
+	background: white;
+	height: 450px;
+}
+
+#parallax {
+	background: black;
+	background-image: url('/img/wallpaper.wiki-Mercedes-benz-mercedes-amg-front-view-silver-wood-1920x1080-PIC-WPC002369.jpg');
+	height: 500px;
+	width: auto;
+	background-attachment: fixed;
+	background-position: center; 
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+#parallax2 {
+	background: black;
+	background-image: url('/img/pier_vintage-wallpaper-1920x1080.jpg');
+	height: 500px;
+	width: auto;
+	background-attachment: fixed;
+	background-position: center; 
+	background-repeat: no-repeat;
+	background-size: cover;
+}

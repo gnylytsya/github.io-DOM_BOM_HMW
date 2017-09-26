@@ -1,0 +1,146 @@
+body{
+	color: black;
+}
+.localization {
+	display: flex;
+	flex-direction: column;
+}
+
+/*кнопка для зникаючого блоку мов*/
+.del { display: none; }
+.del:not(:checked) + label + * { display: none; } 
+
+
+.del:not(:checked) + label,
+.del:checked + label {
+	display: inline-block;
+	margin-left: 45.5%;
+	width: 7%;
+	padding: 0.5% 0.5% 0.5% 0.5%;
+	background-color: transparent;
+	font-weight: bolder;
+	color: white;
+	border: 3px solid white;
+	border-radius: 5%;
+	cursor: pointer;
+	text-align: center;
+}
+.del:checked + label {
+	background: #0a2a33;
+}	
+
+
+.flag {
+	width: 50px;
+	height: 50px;
+}
+
+/*кнопка для зникаючого блоку мов*/
+
+#languages {
+	display: inline-flex;
+	justify-content: center;
+	margin-left: 0%;
+}
+
+#languages label {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 1%;
+}
+
+.lang {
+	display: none;
+}
+
+.lang.visible {
+	display: inline;
+}
+
+#save {
+	margin-left: 46%;
+	width: 7%;
+	padding: 0.5% 0.5% 0.5% 0.5%;
+	background-color: transparent;
+	font-weight: bolder;
+	color: white;
+	border: 3px solid white;
+	border-radius: 5%;
+}
+
+
+#save:hover {
+	background-color: white;
+	color: black;
+	opacity: 0.7;
+}
+
+#welcome-message {
+	padding-top: 5%;
+	color: black;
+}
+
+
+
+/*--------------------------------------------*/
+/* Стилі для неактивного модального окна */
+.modal {
+	background: rgba(255, 255, 255, 0.29);
+	left: 50%;
+	margin: -250px 0 0 -40%;
+	position: absolute;
+	top: -50%;
+	width: 80%;
+	border-radius: 5px;
+	box-shadow: 0 3px 7px rgba(0,0,0,.25);
+	-moz-box-shadow: 0 3px 7px rgba(0,0,0,.25);
+	-webkit-box-shadow: 0 3px 7px rgba(0,0,0,.25);
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	color: #08b6e6;
+	font-family: Optima, sans-serif;
+	font-size: 36px;
+	font-weight: bolder;
+	text-align: center;
+	vertical-align: middle;
+
+}
+
+
+/* Активація модального віка в стані :target */
+.modal:target {
+	top: 50%;
+	transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-webkit-transition: all 0.4s ease-in-out;
+}
+
+.modal header, .modal footer {
+	background: rgba(247, 247, 247, 0.31);
+	border-bottom: 1px solid rgba(231, 231, 231, 0.43);
+	border-radius: 45px 45px 45px 45px;
+	-moz-border-radius: 45px 45px 0 0;
+	-webkit-border-radius: 45px 45px 0 0;
+}
+.modal img {
+	max-width: 5%;
+	margin-left: 93%;
+}
+
+.modal section, .modal header, .modal footer {
+	padding: 15px;
+	z-index: 200;
+}
+.modal h2 {
+	margin: 0;
+}
+.modal .btn {
+	float: right;
+}
+
+body {
+	background-image: url(https://cdn2.hubspot.net/hubfs/83405/Blog_images/leadership-change-management.jpg);
+	background-size: cover;
+}

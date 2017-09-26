@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link href="localization.css" rel="stylesheet">
+</head>
+<body>
+
+	<input type="checkbox" id="localize" class="del">
+	<label for="localize" class="del">Change language</label>
+	<div class="localization">
+		<div id="languages">
+			<label>
+				<input type="radio" name="lang">UKR
+			</label>
+			<label>
+				<input type="radio" name="lang">RUS
+			</label>
+			<label>
+				<input type="radio" name="lang">ENG
+			</label>
+		</div>
+
+
+
+		<aside class="modal" id="modal" style="top: -50%;">
+			<div id="welcome-message">
+				<span class="lang lang-ukr visible">Привіт</span>
+				<span class="lang lang-rus">Привет</span>
+				<span class="lang lang-eng">Hello</span>
+				, username!
+				<span class="lang lang-ukr visible">Раді тебе бачити!</span>
+				<span class="lang lang-rus">Рады тебя видеть!</span>
+				<span class="lang lang-eng">Glad to see you!</span>
+			</div>
+
+			<img src="css/ok.png" class="ok">
+
+		</aside>
+
+
+		<button id="save">Save</button> 
+	</div>
+	<script src="localization.js"></script>
+</body>
+</html>

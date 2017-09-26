@@ -1,0 +1,11 @@
+body{
+	background-image: url(http://www.planwallpaper.com/static/images/wallpaper672898_phFezZz.jpeg);
+}
+.download-message{
+	margin: auto;
+	display: flex;
+	justify-content:center;
+	margin-top: 450px;
+	color: white;
+	font-size: 40px;
+}
