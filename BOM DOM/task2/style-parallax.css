@@ -9,7 +9,7 @@ h1 {
 
 #parallax {
 	background: black;
-	background-image: url('/img/wallpaper.wiki-Mercedes-benz-mercedes-amg-front-view-silver-wood-1920x1080-PIC-WPC002369.jpg');
+	background-image: url("img/wallpaper.wiki-Mercedes-benz-mercedes-amg-front-view-silver-wood-1920x1080-PIC-WPC002369.jpg");
 	height: 500px;
 	width: auto;
 	background-attachment: fixed;
@@ -21,7 +21,7 @@ h1 {
 
 #parallax2 {
 	background: black;
-	background-image: url('/img/pier_vintage-wallpaper-1920x1080.jpg');
+	background-image: url('img/pier_vintage-wallpaper-1920x1080.jpg');
 	height: 500px;
 	width: auto;
 	background-attachment: fixed;
