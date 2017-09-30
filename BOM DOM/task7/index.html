@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+	
+	<div class="content forms" id="dynamical-list">
+		<form name="personal-info" class="values">
+			<label>
+				<input id="firstName" type="text" data-type="text" value="" placeholder="First name" name="firstname" data-valid="false">
+			</label>
+			<label>
+				<input id="lastName" type="text" data-type="text" value="" placeholder="Last name" name="lastname" data-valid="false">
+			</label>
+			<label>
+				<input id="salary" type="text" data-type="digit" value="" placeholder="Salary $" name="salary" data-valid="false">
+			</label>
+			<label>
+				<input id="position" type="text" data-type="text" value="" placeholder="Position" name="position" data-valid="false">
+			</label>
+			<label>
+				<input id="limit" type="digit" data-type="digit" value="10" placeholder="Limit" name="limit" data-valid="false">
+			</label>
+		</form>
+		<div class="actions">
+			<input type="submit" class="addEmployee" value="Add New" onclick="addNew()">
+			<input type="submit" id="statist" value="Get Statistics">
+			<input type="submit" id="average" value="1000 - avarage salary">
+			<div class="statistic"></div>
+		</div>
+		
+		<div class="show-list">
+			<ul class="employeeList">
+				<li>
+					<span class="employeeFirstName">John</span>
+					<span class="employeeLastName">Doe</span>
+					<span class="employeeSalary" id="salary">1000</span>
+					<span class="employeePosition">Manager</span>
+				</li>
+			</ul>
+		</div>
+
+		<script src="js/app.js"></script>
+	</div>
+</body>
+</html>

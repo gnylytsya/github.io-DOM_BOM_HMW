@@ -1,0 +1,26 @@
+body{
+	background-image: url(http://www.asiafitnesstoday.com/wp-content/uploads/Office_View.jpg);
+	
+}
+#dynamical-list{
+	text-align: center;
+	margin-top: 250px;
+	
+}
+#dynamical-list input{
+	text-align: center;
+}
+.actions{
+	text-align: center;
+}
+.actions input{
+	color: #000000;
+	background-color: rgba(10, 203, 62, 0.31);
+	border-radius: 20px 20px 20px;
+}
+input{
+	height: 30px;
+	margin: 20px 10px;
+	background-color: rgba(10, 114, 203, 0.28);
+	border-radius: 20px 20px 20px;	
+}
