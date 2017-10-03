@@ -4,7 +4,7 @@ body{
 }
 #dynamical-list{
 	text-align: center;
-	margin-top: 250px;
+	margin-top: 50px;
 	
 }
 #dynamical-list input{
@@ -23,4 +23,7 @@ input{
 	margin: 20px 10px;
 	background-color: rgba(10, 114, 203, 0.28);
 	border-radius: 20px 20px 20px;	
+}
+.show-list{
+	font-size: 22px;
 }

@@ -78,4 +78,32 @@ function addNew() {
 
 }
 
+/*function which shows all employees in system now*/
+function showNumbersOfEmployees() {
+	var inSystem = document.getElementById('inSystem');
+	inSystem.textContent = "Employees in system: " + li.length;
+}
+showNumbersOfEmployees();
+
+function showAverageSalary() {
+	var getSalary=document.querySelectorAll('.employeeSalary');
+	var matchSalaryArr=[];
+	for (var i = 0; i < getSalary.length; i++) {
+		var textSalary=getSalary[i].textContent;
+		var matchSalary = textSalary.match(/\d/g);
+		var matchSalaryJoin = matchSalary.join('');
+		matchSalaryArr.push(matchSalaryJoin);
+		for (var j = 0; j< matchSalaryArr.length; j++) {
+			var average = eval(matchSalaryArr.join('+')) / matchSalaryArr.length;
+		}
+	}
+	if(li.length==0) {
+		average=0;
+		averageSalary.textContent = "Average salary:  "+"$ "+average.toFixed(2);
+	}
+	averageSalary.textContent = "Average salary:  "+"$ "+ average.toFixed(2);
+	return average;
+}
+showAverageSalary();
+
 
